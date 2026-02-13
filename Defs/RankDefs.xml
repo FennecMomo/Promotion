@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <Promotion.RankDef>
+        <defName>Intern</defName>
+        <label>实习生</label>
+        <description>刚入职的新人，权限受限。</description>
+        <seniority>1</seniority>
+        <clearances>
+            <li>Public</li>
+        </clearances>
+        <universalAccess>false</universalAccess>
+    </Promotion.RankDef>
+
+    <Promotion.RankDef>
+        <defName>Supervisor</defName>
+        <label>主管</label>
+        <description>部门负责人，拥有区域管理权。</description>
+        <seniority>5</seniority>
+        <clearances>
+            <li>Public</li>
+            <li>Production</li>
+            <li>Research</li>
+        </clearances>
+        <universalAccess>false</universalAccess>
+    </Promotion.RankDef>
+
+    <Promotion.RankDef>
+        <defName>Director</defName>
+        <label>总监</label>
+        <description>公司高层，可以进入任何区域。</description>
+        <seniority>10</seniority>
+        <clearances>
+            <li>Public</li>
+            <li>Production</li>
+            <li>Research</li>
+            <li>Command</li>
+        </clearances>
+        <universalAccess>true</universalAccess>
+    </Promotion.RankDef>
+</Defs>

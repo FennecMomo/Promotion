@@ -8,3 +8,4 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Pro
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\Promotion.sourcelink.json
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\Promotion.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\Promotion.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\Promotion.csproj.Up2Date
