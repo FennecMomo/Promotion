@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Assemblies\net48\Promotion.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Assemblies\net48\Promotion.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.sourcelink.json
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Promotion\Source\Promotion\obj\Debug\net48\Promotion.pdb
