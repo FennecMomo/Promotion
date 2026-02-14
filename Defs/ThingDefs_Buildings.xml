@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>PromotionPodium</defName>
+        <label>晋升讲台</label>
+        <description>用于举行晋升仪式的讲台。</description>
+        <category>Building</category>
+        <graphicData>
+            <!-- 路径到基础文件名，不要后缀，不要方向 -->
+            <texPath>Things/Buildings/Furniture/PromotionPodium/PromotionPodium</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>  <!-- 多方向，自动找_north/_south/_east/_west -->
+            <drawSize>(1.2,1.2)</drawSize>  <!-- 可以调大点，1.2格看起来更像讲台 -->
+            <shadowData>
+                <volume>(0.6, 0.3, 0.6)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(1,1)</size>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>800</WorkToBuild>
+        </statBases>
+        <fillPercent>0.4</fillPercent>
+        <passability>PassThroughOnly</passability>
+        <canBeUsedUnderRoof>true</canBeUsedUnderRoof>
+        <costList>
+            <WoodLog>50</WoodLog>
+        </costList>
+        <designationCategory>Furniture</designationCategory>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    </ThingDef>
+</Defs>

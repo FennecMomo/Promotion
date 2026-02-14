@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <DutyDef>
+        <defName>RankCeremonyHost</defName>
+        <label>晋升演讲中</label>
+        <!-- 删除 reportString，DutyDef 不支持这个字段 -->
+        <thinkNode Class="ThinkNode_Priority">
+            <subNodes>
+                <li Class="JobGiver_StandAndBeSociallyActive" />
+            </subNodes>
+        </thinkNode>
+    </DutyDef>
+
+    <DutyDef>
+        <defName>RankCeremonyGuest</defName>
+        <label>参加晋升仪式中</label>
+        <!-- 删除 reportString -->
+        <thinkNode Class="ThinkNode_Priority">
+            <subNodes>
+                <li Class="JobGiver_StandAndBeSociallyActive" />
+            </subNodes>
+        </thinkNode>
+    </DutyDef>
+</Defs>

@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using System.Collections.Generic;
+using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -60,6 +61,22 @@ namespace Promotion.UI
             GUI.color = Color.white;
             // Text.Anchor = TextAnchor.UpperLeft;
             Text.Font = GameFont.Small;
+        }
+    }
+    
+    [HarmonyPatch(typeof(Pawn))]
+    [HarmonyPatch("GetGizmos")]
+    public static class Patch_Pawn_GetGizmos
+    {
+        public static IEnumerable<Gizmo> Postfix(IEnumerable<Gizmo> __result, Pawn __instance)
+        {
+            foreach (var gizmo in __result) yield return gizmo;
+        
+            // 只给玩家殖民者显示晋升按钮
+            if (__instance.IsColonistPlayerControlled)
+            {
+                yield return new Gizmo_Promotion(__instance);
+            }
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThoughtDef>
+        <defName>Promotion_Promoted</defName>
+        <durationDays>5</durationDays>
+        <stages>
+            <li>
+                <label>获得晋升</label>
+                <description>我获得了晋升！这是对我工作的认可。</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Promotion_Witnessed</defName>
+        <durationDays>3</durationDays>
+        <stages>
+            <li>
+                <label>见证晋升</label>
+                <description>我见证了一场晋升仪式，感受到了组织的活力。</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>
